@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Latihan css</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">INVENTORY</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- main content -->
+    <div class="container">
+        <div id="profile">
+            <img src="profile.png" alt="profile photo">
+            <div id="left-side">
+                <p id="yourname">Nama Anda</p>
+                <p id="job">Front End Designer</p>
+                <a id="button-edit" type="button">Edit</a>
+                <a id="button-resume" type="button">Resume</a><br><br>
+            </div>
+            <div id="right-side">
+                <table id="record">
+                    <tr>
+                        <td class="boldtext">Availability</td>
+                        <td class="greytext">Full Time</td>
+                    </tr>
+                    <tr>
+                        <td class="boldtext">Usia</td>
+                        <td class="greytext">19</td>
+                    </tr>
+                    <tr>
+                        <td class="boldtext">Lokasi</td>
+                        <td class="greytext">Jakarta</td>
+                    </tr>
+                    <tr>
+                        <td class="boldtext">Pengalaman</td>
+                        <td class="greytext">2 tahun</td>
+                    </tr>
+                    <tr>
+                        <td class="boldtext">Email</td>
+                        <td class="greytext">email@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <form>
+            <label class="boldtext" for="nama">Nama</label>
+            <input class="datadiri" type="text" name="nama" placeholder="masukkan nama anda">
+            <label class="boldtext" for="role">Role</label>
+            <input class="datadiri" type="text" name="role">
+            <label class="boldtext" for="availability">Availability</label>
+            <input class="datadiri" type="text" name="availability">
+            <label class="boldtext" for="usia">Usia</label>
+            <input class="datadiri" type="number" name="usia">
+            <label class="boldtext" for="lokasi">Lokasi</label>
+            <input class="datadiri" type="text" name="lokasi">
+            <label class="boldtext" for="year_experience">Year Experience</label>
+            <input class="datadiri" type="number" name="year_experience">
+            <label class="boldtext" for="email">Email</label>
+            <input class="datadiri" type="email" name="email">
+            <button class="send boldtext" type="submit">Submit</button>
+        </form>
+    </div>  
+</body>
+</html>
